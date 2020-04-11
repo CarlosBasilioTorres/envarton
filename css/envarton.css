@@ -110,7 +110,7 @@ nav{
     left: -100%;    
     background-color: rgba(0,0,0,.7);        
     opacity: 0;
-    -webkit-transition: all 1s ease;
+    -webkit-transition: all .6s ease;
 }
 
 .sidenav{    
