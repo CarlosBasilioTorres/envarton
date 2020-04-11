@@ -1,0 +1,133 @@
+*{
+    font-family: 'Comic Neue';
+}
+
+
+.margen{
+    padding: 0px 30px 0px 70px;
+}
+
+
+.logo-envarton{
+    width: 100%;
+    text-align: center;
+    font-size: 150px;
+    margin: 50px 0px;
+    color: green;
+}
+
+nav ul li a{
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li a i{
+    margin: 0px 5px 0px 0px;
+}
+
+.brand-logo img{
+    width: 50px;
+    margin: 7px 0px;
+}
+
+
+.titulo-principal{
+    margin-top: 50px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.titulo-principal i{
+    font-size: 45px;
+    color: green;
+    margin: 0px  0px 0px -15px;
+    padding: 0;
+    top: 2px;
+    position: relative
+}
+
+.justificacion{
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.justificacion h2{
+    text-align: center
+}
+
+footer{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+footer>div{
+    text-align: center;
+    margin: 35px 0px;
+}
+
+footer div div{
+    margin: 10px 0px;
+}
+
+footer .titulo-col{
+    font-size: 20px;
+}
+
+footer .contenido-col{
+    font-size: 16px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.comenzamos button{
+    background: green;
+    color: white;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+@media(max-width:1000px){
+    .margen{
+        padding: 0px 10px;
+    }
+    
+ 
+}
+
+@media(max-width:650px){
+    .content-landing .nombre{
+        font-size: 20px;
+    }
+    
+    .content-landing .actividades{
+        margin-top: 30px;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .content-landing .actividades div{     border: none;
+        padding: 3px 2px;
+        font-size: 10px
+    }
+    
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    footer>div
+    {
+        margin: 0;
+        border-bottom: 2px solid white;
+    }
+}
+
