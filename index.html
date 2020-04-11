@@ -35,10 +35,14 @@
         <li><a href="mobile.html"><i class="material-icons" style="color: white;">contacts</i>Acerca del desarrollador</a>
         </li>
       </ul>
-           
+            
            <div class="titulo-principal">
                EN <i class="material-icons">network_wifi</i>ART <i class="material-icons">offline_pin</i>N
            </div>
+           <div class="desarrollador">                                   
+                <p><b>Desarrollo original de Master Of Codes</b></p>                
+                <p>by Carlos Alberto Basilio Torres</p>
+            </div>
            
            <section class="margen justificacion">
                <p>
@@ -86,14 +90,13 @@
                    Si en tu interés esta el desarrollarte en alguna de estas áreas en proyectos de reciente lanzamiento, pregunta en nuestro <b><a href="https://www.facebook.com/MasterOfCodes/">Portal de Comunicación</a></b> como puedes convertirte en <b>becario</b> y posteriormente <b>socio</b> de estos negocios.
                </p>
                
-               <p>Esperamos contar contigo y lo mas importante, que este material te sirva en mayor o menor medida para tu próximo desarrollo.</p>
-               
-               <div class="center comenzamos">
-                   <h4>Fin del Comunicado</h4>
-                   <button>Comencemos a Programar</button>
-               </div>
-               
+               <p>Esperamos contar contigo y lo mas importante, que este material te sirva en mayor o menor medida para tu próximo desarrollo.</p>                              
            </section>
+           
+               <div class="comenzamos">
+                   <h4>Fin del Comunicado</h4>
+                   <a href="demos.html">Comencemos a Programar</a>
+               </div>
            
            <footer class="page-footer blue-grey darken-4">
         
@@ -131,10 +134,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
       <script type="text/javascript" src="js/materialize.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
-      <script type="text/javascript" src="js/envarton.js"></script>
+      <script type="text/javascript" src="js/envartonDatePicker.js"></script>      
       
-      <script>
-                
+      <script>              
           document.addEventListener('DOMContentLoaded', function() {
             var elems = document.querySelectorAll('.sidenav');
             var instances = M.Sidenav.init(elems, options);
@@ -148,14 +150,15 @@
             $('.sidenav').sidenav();
             $('.fixed-action-btn').floatingActionButton();
           });
-      </script>
+     </script>
       
-      <script>
-      (function(){
-          let date  = new Date();
-          document.getElementById("fecha").innerHTML = date.getDate() + " - " + month(date.getMonth()) + " - " + date.getFullYear();
-      })();
-</script>
+     <script>
+          (function(){
+              let date  = new Date();
+              document.getElementById("fecha").innerHTML = date.getDate() + " - " + month(date.getMonth()) + " - " + date.getFullYear();
+          })();
+    </script>
+  
     </body>
 </html>
         

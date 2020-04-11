@@ -1,0 +1,9 @@
+.envarton-carrousel{
+    width: 100%;
+}
+
+.carrousel-controller{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
