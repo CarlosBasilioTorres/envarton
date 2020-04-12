@@ -1,7 +1,9 @@
 *{
     margin: 0;
     padding: 0;        
+    text-decoration: none;
 }
+
 
 /*paddings*/
 
@@ -110,6 +112,7 @@ nav{
     left: -100%;    
     background-color: rgba(0,0,0,.7);        
     opacity: 0;
+    top: 0;
     -webkit-transition: all .6s ease;
 }
 
@@ -165,6 +168,10 @@ nav{
     background-color: green;
 }
 
+.grey-dark-4{
+    background-color: #263238 ;
+}
+
 /*text colors*/
 
 .white-text-color{
@@ -175,8 +182,77 @@ nav{
     color: green;
 }
 
+/*alignments*/
+
+.center{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.justify{
+    text-align: justify;
+}
+
+
+.principal-content{
+    margin: 20px 0px;
+}
+
+/*lists*/
+
+.super-list{
+    margin: 25px 0px;
+}
+
+/*footer*/
+
+footer{
+    height: 250px;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.footer-item-col{
+    display: flex;    
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-item-col > div
+{
+    margin: 3px 0px;
+}
+
+/*columns array*/
+
+.columns-row-3{
+    display: flex;
+    justify-content: space-around;
+}
+
 
 /*responsive mode*/
+
+/*button-styles*/
+
+.btn-radio-style{
+    width: 250px;
+}
+
+.green-btn{
+    background-color: green;
+    color: white;
+    height: 50px;
+    font-size: 20px;
+}
+
+
 
 @media(max-width:900px){
     .icon-logo{
@@ -189,5 +265,16 @@ nav{
 
     .menu-options-row{
         display: none;
+    }
+
+    footer{
+        height: 450px;
+        flex-direction: column;
+    }
+
+    .footer-item-col{
+        width: 80%;
+        margin-top: 50px 0px;        
+        border-bottom: 2px solid white;
     }
 }
