@@ -1,3 +1,31 @@
 *{
-    font-family: 'Comic Neue';
+    font-family: 'Comic Neue';    
+}
+
+.titulo-principal{      
+    width: 100%;
+    font-size: 50px;  
+    margin-top: 120px;
+    text-align: center;    
+}
+
+.titulo-principal i{
+    font-size: 40px;
+    margin-left: -10px;
+}
+
+.subtitulo{
+    font-size: 25px;
+    margin: 15px 0px;
+}
+
+.subtitulo2{
+    font-size: 17px;
+    margin: 15px 0px;
+}
+
+.subtitulo3{
+    font-size: 14px;
+    margin: 15px 0px;
+    padding-left: 25px;
 }
